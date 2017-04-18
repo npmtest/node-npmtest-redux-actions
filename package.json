@@ -1,1 +1,40 @@
-{     "devDependencies": {         "redux-actions": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-redux-actions",     "homepage": "https://github.com/npmtest/node-npmtest-redux-actions",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-redux-actions.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "#### test coverage for  [redux-actions (v2.0.2)](https://github.com/acdlite/redux-actions)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-actions.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-actions) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-actions.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-actions)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "redux-actions": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-redux-actions",
+    "keywords": [
+        "coverage",
+        "test",
+        "redux-actions"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_redux_actions.js",
+    "name": "npmtest-redux-actions",
+    "nameAlias": "npmtest_redux_actions",
+    "nameOriginal": "npmtest-redux-actions",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-redux-actions.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
+        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
+        "start": "PORT=${PORT:-8080} utility2 start test.js",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
