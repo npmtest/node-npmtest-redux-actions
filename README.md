@@ -1,6 +1,6 @@
 # npmtest-redux-actions
 
-#### test coverage for  [redux-actions (v2.0.2)](https://github.com/acdlite/redux-actions)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-actions.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-actions) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-actions.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-actions)
+#### basic test coverage for  [redux-actions (v2.0.2)](https://github.com/acdlite/redux-actions)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-actions.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-actions) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-actions.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-actions)
 
 #### Flux Standard Action utlities for Redux
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-redux-actions/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-redux-actions/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-redux-actions/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-redux-actions/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redux-actions/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redux-actions/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-redux-actions/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-redux-actions/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redux-actions/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redux-actions/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-redux-actions/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-redux-actions/build/coverage.html/index.html)
 
@@ -120,7 +120,8 @@
         "test": "mocha --compilers js:babel-register src/**/*-test.js",
         "test:watch": "npm run test -- --watch src/**/*-test.js"
     },
-    "version": "2.0.2"
+    "version": "2.0.2",
+    "bin": {}
 }
 ```
 

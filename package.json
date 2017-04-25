@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [redux-actions (v2.0.2)](https://github.com/acdlite/redux-actions)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-actions.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-actions) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-actions.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-actions)",
+    "description": "#### basic test coverage for  [redux-actions (v2.0.2)](https://github.com/acdlite/redux-actions)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-actions.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-actions) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-actions.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-actions)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "redux-actions": "*",
